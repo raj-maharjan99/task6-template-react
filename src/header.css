@@ -1,0 +1,29 @@
+.header_component {
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  gap: 1rem;
+
+  color: #7a0909;
+  font-family: sans-serif;
+  border: 5px dotted;
+
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/15/09/04/banner-1093909_640.jpg);
+}
+.image_component {
+  height: 50px;
+  border: 5px dotted rgb(14, 1, 1);
+}
+.nepal_flag {
+  height: 50px;
+  border: 5px dotted rgb(14, 1, 1);
+}
+
+.nav_component {
+  color: #e1e80d;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+  padding-left: 500px;
+  font-size: 2rem;
+}
