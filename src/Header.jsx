@@ -16,7 +16,7 @@ const Header = () => {
         alt="nepal flag"
       />
       <nav className="nav_component">
-        <a href="#" style={{ background: "yellow" }}>
+        <a href="home.html" style={{ background: "yellow" }}>
           Home
         </a>
         <a href="#" style={{ background: "pink" }}>
