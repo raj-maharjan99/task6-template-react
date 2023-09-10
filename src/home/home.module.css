@@ -1,14 +1,91 @@
-.home {
+.body {
   min-height: calc(100vh - 70px);
-  background-color: yellowgreen;
+  background-image: url(https://media.istockphoto.com/id/1137568153/photo/cherry-blossoms-in-spring-seoul-in-korea.webp?b=1&s=170667a&w=0&k=20&c=s7H268zRcXDlpy-tdWUGySCyLZPGGkc2NTZQmWI43_0=);
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+  margin: 0 0 0 0;
 }
+
 .vline {
   background-image: url(https://cdn.pixabay.com/photo/2015/12/15/09/04/banner-1093909_640.jpg);
   position: fixed;
-  border: 5px solid rgb(57, 13, 13);
+  border: 2px solid rgb(57, 13, 13);
   top: 85px;
   bottom: 3rem;
-  left: 70%;
+  left: 72%;
   width: 10px;
   background-color: #130808;
+}
+
+.box {
+  background-color: rgb(240, 147, 220);
+  margin-top: 100px;
+  margin-left: 80px;
+  border: 5px solid rgb(50, 16, 200);
+  border-radius: 20rem;
+  width: 50rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+
+  /* position: fixed; */
+}
+.box1 {
+  height: 10rem;
+  width: 8rem;
+  margin-left: 1rem;
+  margin-top: 5rem;
+  background-color: rgb(199, 32, 188);
+  border: 5px solid rgb(240, 235, 243);
+  border-radius: 20rem;
+  color: #510628;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  gap: 10px;
+}
+.img {
+  height: 7rem;
+  width: 6rem;
+  border: 2px solid #510628;
+  border-radius: 20rem;
+  margin-left: 5px;
+  display: flex;
+}
+.box2 {
+  height: 10rem;
+  width: 8rem;
+  margin-right: 1rem;
+  margin-top: 5rem;
+  background-color: rgb(199, 32, 188);
+  border: 5px solid rgb(226, 219, 232);
+  border-radius: 20rem;
+  color: #510628;
+  font-family: sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  gap: 1px;
+}
+.box3 {
+  background-color: rgb(245, 236, 242);
+  margin-top: 40px;
+  margin-left: 60px;
+  border: 5px solid rgb(55, 0, 255);
+  /* border-radius: 5rem; */
+  width: 55rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  overflow: auto;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
