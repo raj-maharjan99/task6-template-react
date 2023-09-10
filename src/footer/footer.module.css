@@ -1,0 +1,17 @@
+.footer {
+  background-color: rgb(123, 65, 14);
+  border: 1px solid red;
+  height: 4rem;
+  color: rgb(63, 16, 190);
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: x-large;
+  display: flex;
+
+  justify-content: center;
+  place-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-image: url(https://img.freepik.com/free-vector/v915_53876-174949.jpg?w=1380&t=st=1694322117~exp=1694322717~hmac=b7468b1e49cf6cdc42e941a5d9fe7eefb4813ab923d4c60c9df7eea23f91d3c1);
+}

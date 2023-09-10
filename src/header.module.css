@@ -1,25 +1,30 @@
-.header_component {
+.header {
   display: flex;
   justify-content: center;
-  place-items: center;
+  align-items: center;
   gap: 1rem;
+  height: 5rem;
+  position: fixed;
+  top: 0;
+  /* padding: 10px; */
+  /* z-index: 1000; */
 
   color: #7a0909;
   font-family: sans-serif;
-  border: 5px dotted;
+  border: 5px solid;
 
   background-image: url(https://cdn.pixabay.com/photo/2015/12/15/09/04/banner-1093909_640.jpg);
 }
-.image_component {
+.image {
   height: 50px;
-  border: 5px dotted rgb(14, 1, 1);
+  border: 5px solid rgb(14, 1, 1);
 }
-.nepal_flag {
+.nepalFlag {
   height: 50px;
   border: 5px dotted rgb(14, 1, 1);
 }
 
-.nav_component {
+.navComponent {
   color: #e1e80d;
   display: flex;
   justify-content: end;

@@ -1,0 +1,14 @@
+.home {
+  min-height: calc(100vh - 70px);
+  background-color: yellowgreen;
+}
+.vline {
+  background-image: url(https://cdn.pixabay.com/photo/2015/12/15/09/04/banner-1093909_640.jpg);
+  position: fixed;
+  border: 5px solid rgb(57, 13, 13);
+  top: 85px;
+  bottom: 3rem;
+  left: 70%;
+  width: 10px;
+  background-color: #130808;
+}

@@ -1,21 +1,22 @@
-import "./header.css";
+import styles from "./header.module.css";
+
 const Header = () => {
   return (
-    <header className="header_component">
+    <header className={styles.header}>
       <img
-        className="image_component"
+        className={styles.image}
         src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Flag_of_South_Korea.png"
         alt="korean flag"
       />
 
-      <h1 className="font_component">SOUTH KOREA</h1>
-      <h1 className="font_component">NEPAL</h1>
+      <h1 className={styles.font}>SOUTH KOREA</h1>
+      <h1 className={styles.font}>NEPAL</h1>
       <img
-        className="nepal_flag"
+        className={styles.nepalFlag}
         src="https://www.colonialflag.com/cdn/shop/products/nepal-flag__24265.1639690372.1280.1280.jpg?v=1673390878"
         alt="nepal flag"
       />
-      <nav className="nav_component">
+      <nav className={styles.navComponent}>
         <a href="home.html" style={{ background: "yellow" }}>
           Home
         </a>
